@@ -1,3 +1,10 @@
+from dataclasses import dataclass
+
+@dataclass
+
 class Corso:
-    def __init__(self):
-        pass
+
+    codins : str
+    crediti : int
+    nome : str
+    pd : int

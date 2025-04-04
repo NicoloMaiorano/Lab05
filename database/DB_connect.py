@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-
 def get_connection() -> mysql.connector.connection:
     try:
         cnx = mysql.connector.connect(
